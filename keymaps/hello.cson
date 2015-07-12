@@ -1,3 +1,3 @@
 'atom-text-editor':
-  'ctrl-alt-l': 'markdown:grab'
-  'ctrl-alt-o': 'markdown:clean-grab'
+  'ctrl-alt-i': 'markdown:grab'
+  'ctrl-alt-l': 'markdown:clean-grab'
