@@ -1,0 +1,19 @@
+{
+  "name": "markdown-editext",
+  "main": "./lib/markdown-editext",
+  "version": "0.0.1",
+  "description": "Markdown 文档编辑功能扩展。",
+  "keywords": [
+  ],
+  "activationCommands":{
+    "atom-text-editor": ["markdown:grab", "markdown:clean-grab"]
+  },
+  "repository": "https://github.com/aqxa/markdown-editext",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+
+  }
+}

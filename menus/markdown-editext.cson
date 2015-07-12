@@ -1,0 +1,30 @@
+# See https://atom.io/docs/latest/hacking-atom-package-word-count#menus for more details
+'context-menu':
+  'atom-text-editor': [
+    {
+      'label': 'Grab Markdown Image'
+      'command': 'markdown-editext:grab'
+    }
+    {
+      'label': 'Clean Markdown Grab Image'
+      'command': 'markdown-editext:clean-grab'
+    }
+  ]
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Markdown Editext'
+      'submenu': [
+        {
+          'label': 'Grab Markdown Image'
+          'command': 'markdown-editext:grab'
+        }
+        {
+          'label': 'Clean Markdown Grab Image'
+          'command': 'markdown-editext:clean-grab'
+        }
+      ]
+    ]
+  }
+]
